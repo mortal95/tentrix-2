@@ -1,0 +1,50 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="floor" x1="180" x2="980" y1="690" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF4F3"/>
+      <stop offset="1" stop-color="#D9E0DD"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="788" x2="1190" y1="8" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C38556"/>
+      <stop offset="1" stop-color="#74523A"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#1A2433" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="#F8FAF9"/>
+  <path d="M0 640h1200v120H0z" fill="url(#floor)"/>
+  <path d="M705 0h495v645H705z" fill="url(#wall)"/>
+  <g opacity=".32">
+    <path d="M728 0v650M760 0v650M792 0v650M824 0v650M856 0v650M888 0v650M920 0v650M952 0v650M984 0v650M1016 0v650M1048 0v650M1080 0v650M1112 0v650M1144 0v650M1176 0v650" stroke="#24160F" stroke-width="7"/>
+  </g>
+  <path d="M70 0h650v642H70z" fill="#F7FAF9"/>
+  <path d="M285 100h360v476H285z" fill="#E8F0F0"/>
+  <path d="M320 140h292v360H320z" fill="#DCE8E8"/>
+  <path d="M320 140h292v360H320z" stroke="#15202C" stroke-width="12"/>
+  <path d="M462 140v360M320 260h292" stroke="#15202C" stroke-width="8"/>
+  <path d="M354 188h74M494 188h74M354 312h74M494 312h74" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" opacity=".85"/>
+  <g filter="url(#shadow)">
+    <path d="M872 140l94-18-21 51-85 17 12-50Z" fill="#20A880"/>
+    <path d="M966 122l39 42-62 9 23-51Z" fill="#0B1726"/>
+    <path d="M868 194h72l-36 138-36-138Z" fill="#0E6B5B"/>
+    <path d="M945 192h63l-105 156 42-156Z" fill="#15906F"/>
+    <path d="M861 193l43 38v117l-43-155Z" fill="#10202B"/>
+    <text x="820" y="455" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" fill="#F7F2EC">TENTRIX</text>
+    <text x="880" y="512" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="800" fill="#F7F2EC">LTD</text>
+  </g>
+  <g transform="translate(405 415)">
+    <path d="M0 0h260v42H0z" fill="#F7F7F4"/>
+    <path d="M18 42h18v96H18zM214 42h18v96h-18z" fill="#263241"/>
+    <path d="M42-72h92v66H42zM160-70h72v64h-72z" fill="#253140"/>
+    <path d="M52-62h72v45H52zM170-60h52v43h-52z" fill="#D5E4E2"/>
+    <circle cx="72" cy="76" r="31" fill="#1D2631"/>
+    <circle cx="180" cy="76" r="31" fill="#1D2631"/>
+    <path d="M63 13h150" stroke="#A3ACA8" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(1070 500)">
+    <path d="M34 84c-4-74 10-136 41-188" stroke="#25664E" stroke-width="7" stroke-linecap="round"/>
+    <path d="M42 23c-42-34-56-68-42-102 44 16 60 49 42 102ZM60 6c42-26 66-57 72-93-42 2-68 32-72 93ZM48 66c-50-7-80-30-91-67 45-9 75 14 91 67ZM68 56c45-2 76-20 93-56-42-16-73 3-93 56Z" fill="#1F7B5C"/>
+    <path d="M-2 85h126l-16 142H15L-2 85Z" fill="#101923"/>
+  </g>
+</svg>
